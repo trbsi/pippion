@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 768px) { 
+	/*
+	* MOBILE HEADER FIXED
+	* http://bradfrost.com/blog/mobile/fixed-position/
+	* used in top-header.php
+	*/
+	.header 
+	{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+}
+
+/*make responsive table until 1200px of screen, in original bootstrap it is around 768px  I thunk*/
+@media (max-width: 1200px) 
+{
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+
+
+/*--------------------------HELPER CLASSES--------------------------------*/
+.row-margin-bottom, .col-margin-bottom
+{
+	margin-bottom:15px;
+}
+
+.printIcon, .downloadIcon, .infoIcon, .printIcon img, .downloadIcon img, .infoIcon img
+{
+	width:15px; 
+	height:15px; 
+	border:none;
+}
+
+.status-widget-wrapper select /*on mobile version select box for language is black and hardly to see*/
+{
+	background:white;
+}
+
+/*share buttosn for twitter, facebook to be inline like in auction/index and auction/view */
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+/*google maps div*/
+#map-canvas 
+{
+	min-height: 450px;
+	margin: 0px;
+	padding: 0px
+}
+	  
+
+/*when using GridView, break words in header so table doesn't be too wide because of header
+Those are links in header
+*/
+table th a
+{
+	white-space:pre-wrap;
+}
+
+
+/*racing table - IT'S FOR CREATING BG FOR TABLE th TO SEPERATE IT VISUALLY*/
+.create-participated
+{
+	background-color:#CFD9DE;
+}
+
+.create-won
+{
+	background-color:#AFC1C7;
+}
+
+.table-row-white
+{
+	background-color:white;
+}
+
+/*on auction page show live UTC time on right bottom corner */
+.current_time_fixed
+{
+	position:fixed; 
+	bottom:10px; 
+	right:10px; 
+	z-index:500; 
+	background:#1B1E24; 
+	padding:5px;
+	color:white;
+	border-radius:5px;
+}
+
+.found-pigeons-img
+{
+	 height:300px;
+	 width:300px;
+}
+
+
+.found-pigeons-img-sm
+{
+	 height:100px;
+	 width:100px;
+}
+
+/*--------------------------HELPER CLASSES--------------------------------*/
+
+/*adsense div in layouts/main.php*/
+div#adsense
+{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+
+/*------------------GLOBAL DIV TABLE STYLE-------------------*/
+.display-table
+{
+	display:table;
+	width:100%;
+}
+
+.display-table-row
+{
+	display:table-row;
+}
+
+.display-table-row-th
+{
+	display:table-row;
+	font-weight:bold;
+	background-color:#ECF0F2;
+}
+
+.display-table-cell
+{
+	display:table-cell;
+	padding:10px;
+}
+
+.table-cell-border
+{ 
+	border:1px solid #E8EDF1;
+}
+
+
+
+/*-----------------JQUERY COUNTDOWN PLUGIN STYLE FOR AUCTIONS----------------------*/
+@media (max-width: 992px) {
+	.countdownContainer
+	{
+		min-width:200px;	
+	}
+	
+}
+@media (min-width: 992px) {
+	.countdownContainer
+	{
+		min-width:160px;	
+	}
+	
+}
+
+.img-auction-search
+{
+	max-height:200px;
+}
+
+
+/*----------------SCROLL BAR HOW TO USE
+just set height and width you want
+.scrollbar-inner
+{
+	height:XXXpx;
+}
+
+-----------------*/
+.scrollbar-inner
+{
+	overflow: auto;
+}
+
+/*-----------------------IMAGE GALLERY--------------------------*/
+/*thumbnail size for images*/
+.gallery_thumbnail
+{
+	height:215px;
+	width:215px;
+}
+
+/*---------------------YOUTUBE RESPONSIVE EMBED--------------------*/
+/*http://embedresponsively.com/*/
+.embed-container 
+{ 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow:hidden; 
+	max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed 
+{ 
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	width: 100%;
+	height: 100%; 
+}
+
+
+
+

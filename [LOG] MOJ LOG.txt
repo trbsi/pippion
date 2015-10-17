@@ -1,0 +1,31 @@
+- u yii2-user views je veæinom izmjenjen i prilagoðen mom dizajnu
+- u yii2-user ako je PHP mijenjan postavljeni su tagovi //IZMJENA START i //IZMJENA END
+
+- prilikom registracije se moraju odmah unijeti podaci u mg_breeder i mg_subscriptiom
+- ON UPDATE YII:
+	- yiisoft->yii2-authclient->assets->authchoice.js promijeni velièinu i poziciju prozora koji se otvori kad se klikne za login preko facea i googlea
+		popupOptions.left = (window.screen.width - popupOptions.width) / 2;
+		popupOptions.top = (window.screen.height - popupOptions.height) / 3;
+		backend/config/main.php --> 'viewOptions' => ['popupWidth' => 900, 'popupHeight' => 550,], 
+
+- ON UPDATE DEKTRIUM:
+	- provjeri sve modele i controlere koje si overrideao
+
+- u empty_temp_dir.php podesi putanju do temp direktorija i PODESI CRON JOBS
+- api URL http://www.trbovic.info/v2/api/web/backend/users/login
+
+CRON JOBS COMMAND
+/usr/bin/php -q /home/thettaco/public_html/PIPPION.COM/backend/web/empty_temp_dir.php >/dev/null 2>&1
+/usr/bin/php -q /home/thettaco/public_html/backup_database/perform_cpanel_dbbackup.php >/dev/null 2>&1
+
+DISABLE SORTING ONE COLUMN
+http://stackoverflow.com/questions/27463817/how-to-enable-and-disable-sort-in-yii2-gridview
+
+GZIP WEBSITE
+https://www.feedthebot.com/pagespeed/enable-compression.html
+
+ADAPTIVE ACCOUNTS
+used to check if PayPal email/account is verified
+
+ADAPTIVE PAYMENTS
+used to transfer money from my account to sellers easily with few clicks and leaving commision to me

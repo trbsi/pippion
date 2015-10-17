@@ -1,0 +1,14 @@
+a) skini staru bazu i importiraj je u localhost u bazu "pippion" trebat će ti za 1transferusers.php da možeš registrirati sve korisnike
+
++1. eksportiraj bazu s localhosta (baza1)
++2. ekportiraj bazu s cpanela i dodaju u localhost  novu bazu
++3. promijeni sva imena polja i tablica i tipove (varchar...)
++3.1. izbriši mg_users, mg_profiles, mg_profiles_fields, mg_messages, mg_messages_reply
++4. ekportiraj ju
++5. kopiraj iz stare baze(baza1) sve foreign keyove u novu bazu
++6. importiraj bazu
+
+
++ tamo gdje je pigeon sex prazno stavi "?"
++ napravi migraciju yii2 user baze https://github.com/dektrium/yii2-user/blob/master/docs/installation.md
++ počni s korakom: 1transferusers.php

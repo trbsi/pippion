@@ -1,0 +1,34 @@
+To sve isto napravi kad staviš na pippion.com domenu
+- IZLAZAK IZ DEV MODEa???!!!
++ /site/whatispippion - contact
++ /site/verify-acc - upload i contact
++ /site/contact - contact
++ testiraj password recovery
++ facebook i google login testiraj
++ izmijeni u Facebook app i Google OAuth postavkama linkove/domenu za pippion.com
++ subscription/info uredi da mogu i preko banke platiti i preko paypala
++ subscription/info dodaj podatke za uplatu preko banke
++ u Subscription.php dodaj dalmasi[1] u protected $unlimitedSubs
++ u Subscription.php PAYPAL_SANDBOX stavi na false
++ u SubscriptionController actionIpn() stavi USE_SANDBOX na 0
++ u config params promijeni "paypalEmail"
++ u pravom paypalu podesiti IPN link
++ u Subscription.php -> bankAccountSubscription() izmijeni informacije za uplatu
++ index.php koji je u root direktoriju prepravit kod tamo gdje je redirektiranje na backend i frontend
++ proði kroz message fajlove i provjeri koji od tih message zapravo koristiš u kodu
++ helpers/mysqli.php promijeni podatke za konekciju na bazu
++ dodaj naše mailove npr  dario.trbovic@pippion.com, stvori ih na hostingu
++ ne radi ti pretraga oca i majke u pretraživanju golubova
++ u landing page u tim dodaj Gettovu sliku
++ UMJESTO EDITIRANJA YII2-USER PROBAJ OVERRIDE NAPRAVITI
++ adsense ne radi
++ testiraj Google maps na pippion.com za lost pigeons
++ verificiraj neèije raèune ruèno
++ (LOŠE)probaj one html fajlove tipa rodovnik vidjet kako æe izgledati u TCPDFu
++ sve fajlove iz "files" aukcija i slike iz "images" prenesi na novu verziju
++ podsjeti ljude da resetiraju lozinku
++ provjeri jel ti radi gAnalytics i Google web master
++ postavi cron jobs da ti svaki mjesec briše iz direktorija temp
+*********************************************
++ ne dopusti ljudima da idu na aukcije ili oglase ako nisu verificirani
+- kad se bude imalo vremena koristi onaj yii-i18n-formatter za formatiranje datuma, jer formatira datuma s obzirom na regiju

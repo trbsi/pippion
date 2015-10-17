@@ -1,0 +1,3 @@
+PayPal has Class conflict when using Adaptive Payments and Accounts. All Classes and namespaces are named the same way so it's loading one of those classes which cannot be used for example in Adaptive Payments.
+
+So you have to make: composer update inside vendorpaypal/adaptive-accounts(payments) folder to get another vendor folder and load files from there. So here in folders you are calling autoload.php from core paypal vendor directory

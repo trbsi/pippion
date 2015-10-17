@@ -1,0 +1,187 @@
+CSS/HTML A4 paper size
+http://codepen.io/rafaelcastrocouto/pen/LFAes
+
+LIKE condition
+http://www.bsourcecode.com/yiiframework2/select-query-model/
+
+Relations query
+http://www.bsourcecode.com/yiiframework2/select-query-joins/#joinWith
+
+isAdmin and isGuest
+Try 
+Yii::$app->user->identity->getIsAdmin();
+and
+Yii::$app->user->isGuest;
+https://github.com/dektrium/yii2-user/issues/179
+https://github.com/dektrium/yii2-user/issues/201
+
+Execute my code before any action of any controller
+http://stackoverflow.com/questions/27180059/execute-my-code-before-any-action-of-any-controller
+
+How to access module's model in yii2
+http://stackoverflow.com/questions/27213716/how-to-access-modules-model-in-yii2
+
+Add custom theme to action
+http://www.yiiframework.com/forum/index.php/topic/56890-solved-yii-2-module-theme/
+
+How to restrict actions to just admins
+http://www.yiiframework.com/wiki/771/rbac-super-simple-with-admin-and-user/
+
+Translation configuration
+http://www.yiiframework.com/doc-2.0/guide-tutorial-i18n.html
+
+PayPal IPN 400 bad request
+http://stackoverflow.com/questions/23237377/yii2-curl-bad-request-400
+http://www.yiiframework.com/forum/index.php/topic/21146-yii-and-paypal-ipn-400-bad-request-via-ipn-simulator/page__gopid__268890#entry268890
+
+Filtering and sorting model by relations - gridview
+http://www.ramirezcobos.com/2014/04/16/displaying-sorting-and-filtering-model-relations-on-a-gridview-yii2/
+http://www.yiiframework.com/doc-2.0/guide-output-data-widgets.html#working-with-model-relations
+
+get name of current controller and action
+https://www.facebook.com/groups/yiitalk/permalink/10153037463372150/
+
+Get table schema and name
+$test = Subscription::getTableSchema()
+$test->name;
+
+GridView anonymous function, DetailView
+http://stackoverflow.com/questions/22990932/url-in-yii2-gridview
+U DetailView ide = call_user_func(function($model) { echo ""; }, $model)
+
+GridView default order/sort
+http://stackoverflow.com/questions/22993777/yii2-data-provider-default-sorting
+
+hidden field is showing label
+https://github.com/yiisoft/yii2/issues/641
+
+try catch error before deleting records in database
+http://www.yiiframework.com/forum/index.php/topic/58662-integrity-constraint-violation-not-intercepted/
+
+global namespace, datetime(ErrorException saying Class 'yii\helpers\DateTime' not found)
+http://stackoverflow.com/questions/23483894/trying-to-use-php-datetime-class-with-yii2-receiving-class-not-found-errors
+
+
+REST APIs
+https://github.com/deerawan/yii2-advanced-api
+http://budiirawan.com/setup-restful-api-yii2/
+https://github.com/githubjeka/yii2-rest
+
+https://github.com/shahzada-saddam/yii2-rest-module/blob/master/api/controllers/UserController.php
+https://github.com/githubjeka/yii2-rest/blob/master/rest/versions/v1/controllers/UserController.php
+http://stackoverflow.com/questions/25701247/yii2-restful-api-example-to-add-a-new-action
+http://stackoverflow.com/questions/27453378/yii2-rest-api-authentication
+
+Getting value from url for filter field in GridView
+http://www.yiiframework.com/forum/index.php/topic/60269-getting-value-from-url-for-filter-field-in-gridview/page__gopid__269400#entry269400
+
+javascript confirm
+<button type="submit" data-confirm="Are you sure?">delete this</button>
+
+//Passing additional data to the GridView
+https://github.com/yiisoft/yii/issues/1883
+$test = 'test';
+'value' => function($data) use ($test) {
+  return $data->id.$test;
+}
+
+
+ActiveDataProvider default order
+http://www.yiiframework.com/doc-2.0/guide-output-data-widgets.html
+http://stackoverflow.com/questions/22993777/yii2-data-provider-default-sorting
+
+Yii2 user update and override
+https://github.com/dektrium/yii2-user/issues/197
+
+JoinWith relation table alias
+$orders = Order::find()->joinWith([
+			'customer' => function ($query) {
+				$query->from(['c'=>'tbl_customer']);
+			}
+		])->orderBy('c.id DESC, tbl_order.id')->all();
+http://www.yiiframework.com/doc-2.0/guide-output-data-widgets.html
+https://github.com/yiisoft/yii2/commit/545261b54f12b1c2d9cc8e05929d4360e11ca9c9
+
+Yii2 disable jquery
+http://stackoverflow.com/questions/26734385/yii2-disable-bootstrap-js-jquery-and-css
+
+DISABLE SORTING ONE COLUMN
+http://stackoverflow.com/questions/27463817/how-to-enable-and-disable-sort-in-yii2-gridview
+
+loginUrl redirect to other page if not logged in
+https://github.com/dektrium/yii2-user/issues/289
+
+jQuery file uploading
+https://github.com/blueimp/jQuery-File-Upload
+
+align vertical middle using table and table-cell
+https://css-tricks.com/centering-in-the-unknown/
+
+ajax form submit
+http://hayageek.com/jquery-ajax-form-submit/
+
+create folder if it doesn't exist
+http://stackoverflow.com/questions/2303372/create-a-folder-if-it-doesnt-already-exist
+
+sort last 5 rows in reverse order
+http://stackoverflow.com/questions/9424327/mysql-select-from-table-get-newest-last-10-rows-in-table
+
+canvas2image download
+http://christianheilmann.com/2014/04/22/quick-one-using-download-attribute-on-links-to-save-canvas-as-png/
+for firefox - http://stackoverflow.com/questions/809057/how-do-i-programmatically-click-on-an-element-in-firefox
+
+access action params
+http://www.yiiframework.com/forum/index.php/topic/58525-access-parameters-in-standalone-action/
+
+remove non-alphanumeric characters
+http://stackoverflow.com/questions/659025/how-to-remove-non-alphanumeric-characters
+
+remove all files within folder and folder itself
+http://stackoverflow.com/questions/1334398/how-to-delete-a-folder-with-contents-using-php
+
+Enable GZIP compression
+https://www.feedthebot.com/pagespeed/enable-compression.html
+
+Force SSL Https using htaccess
+http://stackoverflow.com/questions/4398951/force-ssl-https-using-htaccess-and-mod-rewrite
+
+Yii2 how to render radiolist with html content?
+http://stackoverflow.com/questions/28277295/yii2-how-to-render-radiolist-with-html-content
+
+disable yii bootstrap js, query and css
+http://stackoverflow.com/questions/26734385/yii2-disable-bootstrap-js-jquery-and-css
+
+
+Create a “Recent Posts” Module Outside of WordPress
+http://davidwalsh.name/wordpress-recent-posts
+http://stackoverflow.com/questions/16672246/wordpress-recent-posts-show-thumbnail
+
+Multiple JOIN, multiple with(), multiple joinWith
+http://www.yiiframework.com/forum/index.php/topic/25560-multiple-joins-using-ar/
+
+see query, query dump
+http://stackoverflow.com/questions/27389146/log-the-actual-sql-query-using-activerecord-with-yii2
+
+Table alias for joinWith needed, with table alias
+https://github.com/yiisoft/yii2/issues/2377
+
+---------------------------GOOGLE MAPS-------------------------------------
+geocode address, address to longitude latitude
+https://developers.google.com/maps/documentation/javascript/geocoding
+
+---------------------------PAYPAL-------------------------------------
+paypal get verified status of account
+https://developer.paypal.com/docs/classic/api/adaptive-accounts/GetVerifiedStatus_API_Operation/
+https://github.com/paypal/adaptiveaccounts-sdk-php/blob/master/samples/GetVerifiedStatus.php
+
+adaptive payments api, APP ID, Signature...
+https://developer.paypal.com/docs/classic/lifecycle/sb_credentials/
+https://github.com/paypal/sdk-core-php/wiki/Configuring-the-SDK
+https://developer.paypal.com/docs/classic/lifecycle/goingLive/
+
+paypal adaptive chained payments, ipn (you have it on github as paypal payments adaptive)
+https://devtools-paypal.com/guide/ap_simple_payment/php?interactive=ON&env=sandbox
+https://developer.paypal.com/docs/classic/adaptive-payments/integration-guide/APIPN/
+
+paypal adaptive IPN variables
+http://enjoysmile.com/paypal-adaptive-payments-and-ipn-part-two/
