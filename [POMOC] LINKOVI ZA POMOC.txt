@@ -66,6 +66,7 @@ REST APIs
 https://github.com/deerawan/yii2-advanced-api
 http://budiirawan.com/setup-restful-api-yii2/
 https://github.com/githubjeka/yii2-rest
+http://www.yiiframework.com/forum/index.php/topic/65897-rest-and-httpbasicauth/
 
 https://github.com/shahzada-saddam/yii2-rest-module/blob/master/api/controllers/UserController.php
 https://github.com/githubjeka/yii2-rest/blob/master/rest/versions/v1/controllers/UserController.php
