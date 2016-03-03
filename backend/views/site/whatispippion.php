@@ -213,24 +213,8 @@ function slike()
 <section id="services">
   <div class="container">
     <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <div class="row">
-        <div class="text-center col-sm-6">
-             <h2><a href="/pigeonblog" target="_blank" style="text-decoration:underline">Blog</a></h2><br>
-             <p class="well">
-            <?php
-            foreach($recent_posts as $post) {
-                echo '<a href="', get_permalink($post['ID']), '" target="_blank">'
-                .get_the_post_thumbnail($post['ID'], 'thumbnail', ['style'=>'float:left', 'class'=>'img-thumbnail'])
-                ."<span style='font-size:16px; font-weight:bold; text-decoration:underline; '>".$post['post_title']."</span>"
-                ."<br><br>"
-                .substr($post["post_content"],0,200)."..."
-                .'</a>';
-            }
-            ?>
-            </p>
-        </div>
-        
-        <div class="text-center col-sm-6 ">
+      <div class="row">        
+        <div class="text-center col-sm-12 ">
              <h2><?= LinkGenerator::clubListOfClubs(Yii::t('default', 'Clubs'), ['target'=>'_blank',  "style"=>"text-decoration:underline"]) ?></h2><br>
              <p class="well">
             <?php 

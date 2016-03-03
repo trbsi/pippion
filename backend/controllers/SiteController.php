@@ -229,19 +229,6 @@ class SiteController extends Controller
 			ExtraFunctions::sendEmail($_POST['name'], $_POST['email'], $_POST['subject'], $_POST['message'], true);
 		}
 
-		/*---------------GET LATEST POST FROM MY BLOG----------------------*/
-		//http://davidwalsh.name/wordpress-recent-posts
-		// Include the wp-load'er
-		include(Yii::getAlias('@webroot').'/pigeonblog/wp-load.php');
-		
-		// Get the last 10 posts
-		// Returns posts as arrays instead of get_posts' objects
-		$recent_posts = wp_get_recent_posts(array(
-			'numberposts' => 1,
-			'order' => 'DESC',
-			'post_status' => 'publish',
-		));
-		/*---------------GET LATEST POST FROM MY BLOG----------------------*/
 		
 		/*---------------GET RANDOM CLUBS----------------------*/
 		$clubTable=Club::getTableSchema();
@@ -257,7 +244,7 @@ class SiteController extends Controller
 		/*---------------GET RANDOM CLUBS----------------------*/
 
 
-		return $this->renderPartial('whatispippion', ['recent_posts'=>$recent_posts, 'clubs'=>$clubs]);
+		return $this->renderPartial('whatispippion', ['clubs'=>$clubs]);
 	}
 	
 	
