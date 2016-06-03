@@ -186,7 +186,6 @@ function slike()
           <!--<li class="scroll"><a href="#twitter" onClick="hideMenuOnMobile()"><?php echo Yii::t('default', 'landing_link Share') ?></a></li>-->
           <!--<li class="scroll"><a href="#blog">Blog</a></li>-->
           <li class="scroll"><a href="#contact" onClick="hideMenuOnMobile()"><?php echo Yii::t('default', 'landing_link Contact') ?></a></li>
-          <li class="scroll"><a href="/pigeonblog" onClick="hideMenuOnMobile()" target="_blank">Blog</a></li>
           <!--<li class=""><a href="<?php echo Url::to('/site/tutorials') ?>" target="_blank"><?php echo Yii::t('default', 'Tutorials') ?></a></li>-->
           <li class="register"><a href="<?php echo Url::to('/user/registration/register') ?>"><?php echo Yii::t('default', 'landing_link Register') ?></a></li>
           <li class="register"><a href="<?php echo Url::to('/user/security/login') ?>"><?php echo Yii::t('default', 'landing_link Login') ?></a></li>
