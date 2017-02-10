@@ -177,8 +177,8 @@ class RentABreederController extends Controller
 				$subject="[NEW] Rent a Breeder"; 
 				$message='
 				There was new rent a breeder added to the database. 
-				<br><a href="https://www.pippion.com/rent-a-breeder/index?admin=true">http://www.pippion.com/rent-a-breeder/index?admin=true</a>
-				<br><a href="https://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'">http://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'</a>
+				<br><a href="http://www.pippion.com/rent-a-breeder/index?admin=true">http://www.pippion.com/rent-a-breeder/index?admin=true</a>
+				<br><a href="http://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'">http://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'</a>
 				'; 
 				$both=true;
 				ExtraFunctions::sendEmail($sender_name, $sender_email, $subject, $message, $both);
@@ -246,8 +246,8 @@ class RentABreederController extends Controller
 				$subject="[UPDATED] Rent a Breeder"; 
 				$message='
 				There was new rent a breeder added to the database. 
-				<br><a href="https://www.pippion.com/rent-a-breeder/index?admin=true">http://www.pippion.com/rent-a-breeder/index?admin=true</a>
-				<br><a href="https://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'">http://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'</a>
+				<br><a href="http://www.pippion.com/rent-a-breeder/index?admin=true">http://www.pippion.com/rent-a-breeder/index?admin=true</a>
+				<br><a href="http://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'">http://www.pippion.com/rent-a-breeder/update?id='.$model->ID.'</a>
 				'; 
 				$both=true;
 				ExtraFunctions::sendEmail($sender_name, $sender_email, $subject, $message, $both);

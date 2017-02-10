@@ -7,7 +7,7 @@
         <div class="tools"> <a href="javascript:;" class="collapse"></a> <a href="#grid-config" data-toggle="modal" class="config"></a> <a href="javascript:;" class="reload"></a> <a href="javascript:;" class="remove"></a> </div>
       </div>
       <div class="grid-body no-border"> <br>
-        This Privacy Policy governs the manner in which Pippion collects, uses, maintains and discloses information collected from users (each, a "User") of the <a href="https://www.pippion.com">https://www.pippion.com</a> website ("Site"). This privacy policy applies to the Site and all products and services offered by Pippion.<br>
+        This Privacy Policy governs the manner in which Pippion collects, uses, maintains and discloses information collected from users (each, a "User") of the <a href="http://www.pippion.com">http://www.pippion.com</a> website ("Site"). This privacy policy applies to the Site and all products and services offered by Pippion.<br>
         <br>
         <b>Personal identification information</b><br>
         <br>
@@ -67,8 +67,8 @@
         <b>Contacting us</b><br>
         <br>
         If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at:<br>
-        <a href="https://www.pippion.com">Pippion</a><br>
-        <a href="https://www.pippion.com">https://www.pippion.com</a><br>
+        <a href="http://www.pippion.com">Pippion</a><br>
+        <a href="http://www.pippion.com">http://www.pippion.com</a><br>
         dario.trbovic@pippion.com<br>
         <br>
         This document was last updated on March 07, 2015<br>

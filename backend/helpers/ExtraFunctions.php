@@ -448,13 +448,13 @@ class ExtraFunctions
 			}
 			</style>
 		<ul class="share-buttons">
-			<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&t=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application" target="_blank"><img src="/images/share_btns/Facebook.png"></a></li>
-			<li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&text=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application:%20https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion" target="_blank" title="Tweet"><img src="/images/share_btns/Twitter.png"></a></li>
-			<li><a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion" target="_blank" title="Share on Google+"><img src="/images/share_btns/Google.png"></a></li>
-			<li><a href="http://www.tumblr.com/share?v=3&u=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&t=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application&s=" target="_blank" title="Post to Tumblr"><img src="/images/share_btns/Tumblr.png"></a></li>
-			<li><a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&media=https://www.pippion.com/images/pippion_logo.jpg&description=Pippion%20-%20Pigeon%20Racing%20and%20Breeding%20Management%20Software%2C%20Auctions%20and%20Classified%20Ads%20for%20Pigeon%20Breeders%2C%20Racers%20And%20Fanciers.%20Everything%20You%20Need%20From%20Hatching%2C%20Pairing%20To%20Racing%20And%20Selling" target="_blank" title="Pin it"><img src="/images/share_btns/Pinterest.png"></a></li>
-			<li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&title=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application" target="_blank" title="Submit to Reddit"><img src="/images/share_btns/Reddit.png"></a></li>
-			<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&title=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application&summary=Pippion%20-%20Pigeon%20Racing%20and%20Breeding%20Management%20Software%2C%20Auctions%20and%20Classified%20Ads%20for%20Pigeon%20Breeders%2C%20Racers%20And%20Fanciers.%20Everything%20You%20Need%20From%20Hatching%2C%20Pairing%20To%20Racing%20And%20Selling&source=https%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion" target="_blank" title="Share on LinkedIn"><img src="/images/share_btns/LinkedIn.png"></a></li>
+			<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&t=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application" target="_blank"><img src="/images/share_btns/Facebook.png"></a></li>
+			<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&text=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application:%20http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion" target="_blank" title="Tweet"><img src="/images/share_btns/Twitter.png"></a></li>
+			<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion" target="_blank" title="Share on Google+"><img src="/images/share_btns/Google.png"></a></li>
+			<li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&t=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application&s=" target="_blank" title="Post to Tumblr"><img src="/images/share_btns/Tumblr.png"></a></li>
+			<li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&media=http://www.pippion.com/images/pippion_logo.jpg&description=Pippion%20-%20Pigeon%20Racing%20and%20Breeding%20Management%20Software%2C%20Auctions%20and%20Classified%20Ads%20for%20Pigeon%20Breeders%2C%20Racers%20And%20Fanciers.%20Everything%20You%20Need%20From%20Hatching%2C%20Pairing%20To%20Racing%20And%20Selling" target="_blank" title="Pin it"><img src="/images/share_btns/Pinterest.png"></a></li>
+			<li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&title=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application" target="_blank" title="Submit to Reddit"><img src="/images/share_btns/Reddit.png"></a></li>
+			<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion&title=Pippion%20%7C%20World\'s%20leading%20pigeon%20breeding%2Fracing%20application&summary=Pippion%20-%20Pigeon%20Racing%20and%20Breeding%20Management%20Software%2C%20Auctions%20and%20Classified%20Ads%20for%20Pigeon%20Breeders%2C%20Racers%20And%20Fanciers.%20Everything%20You%20Need%20From%20Hatching%2C%20Pairing%20To%20Racing%20And%20Selling&source=http%3A%2F%2Fwww.pippion.com%2Fsite%2Fwhat-is-pippion" target="_blank" title="Share on LinkedIn"><img src="/images/share_btns/LinkedIn.png"></a></li>
 		</ul>			
 			<!-- SHARE -->
 		';
@@ -783,7 +783,7 @@ class ExtraFunctions
 		Dario Trbovic, CEO (Web Developer) - dario.trbovic@pippion.com<br><br>
 		Ivan Jurlina, Business Executive - ivan.jurlina@pippion.com<br><br>
 		Mario Hribar, CTO (Android Developer) - mario.hribar@pippion.com<br><br>
-		https://www.pippion.com
+		http://www.pippion.com
 		");
 		$mail2->send();
 	}

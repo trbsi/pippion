@@ -470,8 +470,8 @@ class Auction extends \yii\db\ActiveRecord
 				}
 				else
 				{
-					$ipn_url="https://www.pippion.com/ipn/ipn-paypal-auction";
-					$return_url="https://www.pippion.com/ipn/return-url-paypal-auction?IDauction=$Auction->ID";
+					$ipn_url="http://www.pippion.com/ipn/ipn-paypal-auction";
+					$return_url="http://www.pippion.com/ipn/return-url-paypal-auction?IDauction=$Auction->ID";
 				}
 				
 				//PAYPAL BUYNOW

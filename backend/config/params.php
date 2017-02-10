@@ -14,7 +14,7 @@ return [
 	//live
 	'pippion_site'=>'http'.(isset($_SERVER['HTTPS']) ? 's' : '').'://www.pippion.com/',
 	'paypalEmail'=>'payments@pippion.com',
-	'paypalIPN'=>'https://www.pippion.com/subscription/ipn',
+	'paypalIPN'=>'http://www.pippion.com/subscription/ipn',
 
 	//test
 	/*'pippion_site'=>'http://pippion.test.thetta.com.hr/',
